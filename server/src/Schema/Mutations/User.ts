@@ -12,7 +12,7 @@ export const CREATE_USER = {
   },
   async resolve(parent: any, args: any) {
     const { name, username, password } = args;
-    await Users.insert(args);
+    await Users.insert({ name, username, password });
     return args;
   },
 };

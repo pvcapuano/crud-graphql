@@ -14,7 +14,7 @@ const main = async () => {
     username: "graphql",
     password: "password",
     logging: true,
-    synchronize: false,
+    synchronize: true,
     entities: [Users],
   });
 

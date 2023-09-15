@@ -19,14 +19,14 @@ function UpdatePassword() {
         }}
       />
       <input
-        type="password"
+        type="text"
         placeholder="Current Password..."
         onChange={(event) => {
           setCurrentPassword(event.target.value);
         }}
       />
       <input
-        type="password"
+        type="text"
         placeholder="New Password..."
         onChange={(event) => {
           setNewPassword(event.target.value);
